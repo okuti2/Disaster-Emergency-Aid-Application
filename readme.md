@@ -1,7 +1,5 @@
 # Project: Disaster and Emergency Aid Management 
-## Current project state
- - There will be a Q&A session for the project today(Apr 6th) at 12:35. Click [HERE](https://connect.rna2.blindsidenetworks.com/invite/to?c=fLSH4cC_UqXqrx1QJdJOX9IA6DqfJ-D_jzD0c7DBCMw&m=4b951e9ca5738b624e1363b751efba9cf4dd52a0&t=1649262411554&u=senecacollege) to join
- 
+
 ## Use case
 
 When disaster hits a nation, the most urgent task is to be able to provide the people affected with what they need as quickly and as efficiently possible.
@@ -13,92 +11,6 @@ The types of items needed to be shipped in this situation are divided into two m
 - Perishable products, such as food and medicine, that have an expiry date. We refer to these products as Perishables. 
 
 To accomplish this task we need to create several classes to encapsulate the problem and provide a solution for this application. 
-
-
-
-### Milestones
-Overview and Q&A sessions will be held on the dates and times shown below. this is open to all students. If you would like to join, you must use your real (Seneca) name and join using a microphone. (Listen only connections are not allowed, since you can watch the recording later)
-
-|Milestone| Revision |  Overview<br />session |Comments |
-|------|:---:|:---:|:----|
-| [MS1](#milestone-1) | V1.0 | [Watch the Overview Session (March 7th, 10AM)](https://youtu.be/ZW09NrkUSzA) ||
-| [MS2](#milestone-2) | V1.0 | [Watch the Overview Session (March 7th, 10AM)](https://youtu.be/1qxhpcRfE8Q) ||
-| [MS3](#milestone-3) | V0.9 | [Watch the overview Session (March 23rd, 10AM)](https://youtu.be/Cfq2J7SwH5c) | The tester program will be released shortly|
-|  | V1.0 | |  Tester program added |
-| [MS4](#milestone-4) | V1.0 | [Watch the overview Session ( March 28th, 10AM)](https://youtu.be/0wX5qXroXKs) ||
-|  | V1.1 | |  Tester program updated to test rule of three |
-| [MS5](#milestone-5) | V1.0 | [Watch the overview Session (April 4th, 11:45AM)](https://youtu.be/viWTgok3vNg) | |
-
-
-
-## Milestones due dates
-This project will be done in 5 milestones and each milestone will have its due date. The due date of each milestone is stated below, and it is based on the amount of work to be done for that milestone. 
-
-> If you would like to successfully complete the project and be on time, **start early** and try to meet all the due dates of the milestones.
-
-## Final project mark and due dates
-
-|Milestone| Mark | Due date | Submission Policy|
-|:------:|:---:|:---:|-------|
-| MS1 | 10% | Mar 13 | gets full mark even if 1 week late. gets 0% afterwards|
-| MS2 | 10% | Mar 17 | gets full mark even if 1 week late. gets 0% afterwards|
-| MS3 | 10% | Mar 28 | gets full mark even if 1 week late. gets 0% afterwards|
-| MS4 | 10% | Mar 31 | gets full mark even if 1 week late. gets 0% afterwards|
-| MS5 | 60% | See below| See below|
-
-> To make the final submission of the project easier and to make it possible to partially submit a project we have divided the submission of milestone 5 into six small ones. Each submission is worth 10% of the project mark. Your project will be marked only if you have all four milestones and at least have one of the 6 six submissions of milestone 5. 
-
-### Milestone 5 submissions
-- **Due date**: Apr 10
-- Project submission **rejection date**: Apr 17
-- **Penalty** for late submissions is **10% per day** up to **maximum of 5 days**. (mark of zero after 5 days)
-
-|Milestone 5<br/> Divided into<br/>Six submission| Description | Comments |
-|:------|:---|-------|
-| [m51](#milestone-51) | [Menu item 7 and 1](#milestone-51)  | Mandatory, this is needed for the rest<br /> of the options to be functional|
-| [m52](#milestone-52) | [Menu item 2](#milestone-52) | Optional with 10% penalty |
-| [m53](#milestone-53) | [Menu item 3](#milestone-53) | Optional with 10% penalty |
-| [m54](#milestone-54) | [Menu item 4](#milestone-54) | Optional with 10% penalty |
-| [m55](#milestone-55) | [Menu item 5](#milestone-55) | Optional with 10% penalty |
-| [m56](#milestone-56) | [Menu item 6](#milestone-56) | Optional with 10% penalty |
-
-> The first 4 milestones will not be marked based on the code but on their output and their timely submissions. You may modify or debug your previous code as you are going through the milestones. The only milestone that is going to be scrutinized based on the code will be milestone 5. If you require any feedback on your first four milestones you need to ask your professor to do so.
-
-***NOTE:***<br/>
-**Your project will receive a mark of zero if any of the milestones are not submitted by [the rejection date](#milestone-5-submissions)<br />For your project to be marked, you must submit all the 4 milestones and at least one of the 6 submissions of Milestone 5**
-
-### Checking Due dates using the submitter program
-
-You can check the due date of each milestone using the ```-due``` flag in the submission command:
-```bash
-~profname.proflastname/submit 2??/prj/m? -due
-```
-- replace **2??** with the subject code
-- replace **m?** with the milestone number
-
-## Citation, Sources
-
-Every file that you submit must contain (as a comment) at the top:<br />
-**your name**, **your Seneca email**, **Seneca Student ID** and the **date** when you completed the work.
-
-### For work that is done entirely by you (ONLY YOU)
-
-If the file contains only your work or the work provided to you by your professor, add the following message as a comment at the top of the file:
-
-> I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
-
-### For work that is done partially by you.
-
-If the file contains work that is not yours (you found it online or somebody provided it to you), **write exactly which part of the assignment is given to you as help, who gave it to you, or which source you received it from.**  By doing this you will only lose the mark for the parts you got help for, and the person helping you will be clear of any wrongdoing.
-
-> - Add the citation to the file in which you have the borrowed code
-> - In the 'reflect.txt` submission of milestone 5, add exactly what is added to which file and from where (or whom).
-
-> :warning: This submission Policy only applies to the project. All other assessments in this subject have their own submission policies.
-
-### If you have helped someone with your code
-
-If you have helped someone with your code. Let them know of these regulations and in your 'reflect.txt' of milestone 5, write exactly which part of your code was copied and who was the recipient of this code.<br />By doing this you will be clear of any wrongdoing if the recipient of the code does not honour these regulations.
 
 ## Compiling and Testing Your Program
 
@@ -120,34 +32,6 @@ valgrind -s --leak-check=full ms
 ```
 
 To check the output, use a program that can compare text files.  Search online for such a program for your platform, or use *diff* available on `matrix`.
-
-### Citation template
-you an use the following template for your citations.
-
-```C++
-/* Citation and Sources...
-Final Project Milestone ? 
-Module: Whatever
-Filename: Whatever.cpp
-Version 1.0
-Author   John Doe
-Revision History
------------------------------------------------------------
-Date      Reason
-2020/?/?  Preliminary release
-2020/?/?  Debugged DMA
------------------------------------------------------------
-I have done all the coding by myself and only copied the code 
-that my professor provided to complete my workshops and assignments.
------------------------------------------------------------
-OR
------------------------------------------------------------
-Write exactly which part of the code is given to you as help and 
-who gave it to you, or from what source you acquired it.
------------------------------------------------------------*/
-```
-
-**Failing to include the above citation to the files containing your work will cause the rejection of your project submission**
 
 ## Project Implementation notes:  *Very Important, read carefully*
 - All the code written in this project should be within the `namespace sdds`.
