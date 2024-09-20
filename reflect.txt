@@ -1,0 +1,27 @@
+Full Name:		Olutoyosi Kuti
+Student Number:		102633211
+Seneca Email Address:		okuti2@myseneca.ca
+Section Information code:	NII
+
+The Final Project was to create a Management Sytem for Supplies needed during an emergency or disaster. It manages the list of items that need to be shipped to the emergency zone. It keeps track of the quantity of each item needed, the number of items on hand, shipping the items and storing the data in a file for future use. 
+
+The project has 8 modules in it: AidMan, Date, iProduct, Item,Perishable, Menu, Status, and Utils. Each of these modules were instrumental in making the program work seamlessly. 
+The AidMan module has an object called AidMan and this module deals with the menu option and the surface work that goes into the application. The menu option is created here and varioues functions that help in the displaying of the items available and their details. 
+The Date module is used to provide the current or test date on the program as well as store the expiry date for perishable items to be shipped out. It ensures that the dates entered are of valud input and are realistic dates.
+iProduct is an interface that is the base class for the perishable and items objects. It is the object that holds the information for each item that should be shipped out. 
+Item module holds all information and calculations for non-perishable products. It is derived from the iProduct module. it also stores the functions to read, write, display and store all data related to items needed in this program that are non-perishable.
+Perishable module holds the information for all perishable products, it is a derived class from the item object. It is the same as an item class except it has an expiry date and handling instructions.
+Menu module just holds the options provided in the program. The options being from 0-7
+Status Module is responsible for checking if each Item is valid or not. It holds the errorcode if needed and the status code. It's used in the date and Item classes to hold the errors in them if necessary.
+Utils Module is just a bunch of helper functions to make the coding process easier and neater.
+
+The final aspects of this project mostly deals with the AidMan module and implementing each menu option. When the program is first run regardless of the option chosen we have to open a file and so option 7 is defaulted which is used to load or add a new database to the system. For this we use the load function. The function would then separate each item in the file into perishable and non-perishable using the sku number. If the file chosen to load from is not found it gives the option to create a new file which would be empty but Items can be added to it.
+The Menu 1 option lists out all the items currently in the database or if we are trying to update an item it would list all items that match the item we are searchin for. It is implemented using the list function
+The Menu 2 option is used to add a new item into the database. It first asks what type of item the user would like to add and checks that the item does not already exist in the database and if not a new item is created and the data is stored in the database.
+Menu option 3 removes an item from the database when the item description is specified and is found. It uses the remove function to achieve this
+Menu option 4 updates an item in the database by either adding or removing values from the quantiy on hand. It is implemented using the list, search and += and -= operators
+Menu option 5 which sorts the data items in descending order of m_qtyNeeded()-m_qty() was implemented using a temporary iProduct pointer which holds another item when swapping positions.
+Menu option six just writes and deletes data items where  m_qtyNeeded() = m_qty() into a file to ship them out. It is implemented using the shipOption() function. we also use an ofstream object to create a file where the data will be written to and a Date object to store the date in the file.
+
+My main challenge in this project was keeping track of the dynamic memory allocations and making sure I deallocate them, as well as initializing all vairables used. I spent most of my time debugging my code because of the errors I got from valgrind, It was a very tiresome process but it helped me to understand how to solve memory leak errors and other types of errors the valgrind searches for. I enjoyed coding this project as it is a real life tool that could help a lot of people.
+Overall the OOP class has furthered my knowledge in Object Oriented Programming. I have leanred about dynamic memory, classes. Making classes virtual, concrete, interfaces or derived. I also learned how to make helper functions, how to override and overload functions and using input and output operators into the console or a file. I really enjoyed this course as it taught me to think differently about programming and how much you can really do with code. It has definitely made me a better programming.
